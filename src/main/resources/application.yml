@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: sample-app
+
+server:
+  port: 9150
+  error:
+    include-message: ALWAYS
+
+service:
+  last-currency-list-url: "https://indecon.site/last"
+
